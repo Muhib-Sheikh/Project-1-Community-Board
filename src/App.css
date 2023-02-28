@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* color: black; */
+  /* background-color: white; */
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: lightgreen;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #333;
+}
+
+.Restaurant {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+/* .Restaurant img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0px 0px;
+} */
+
+/* .Restaurant {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+@media only screen and (min-width: 768px) {
+  .Restaurant {
+    flex-direction: row;
+    align-items: center;
+  }
+  .Restaurant img {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+
+/* .Restaurant img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border-radius: 10px 10px 0px 0px;
+} */
+
+.Restaurant img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: 300px;
+  max-height: 100%;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+}
+
+
+.Restaurant h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.Restaurant h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.Restaurant h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* .Restaurant p {
+  font-size: 16px;
+  margin-bottom: 10px;
+} */
+
+.Restaurant button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #0095FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Restaurant button:hover {
+  background-color: #0077FF;
+}
