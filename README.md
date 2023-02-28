@@ -40,14 +40,14 @@ GIF created with [Licecap](https://www.cockos.com/licecap/) for Windows/mac
 Some challenges I faced during this project include:
 
 Thinking of a topic to use and finding the content for it
-Finding images to use
-Managing the files/folders
-Making sure imports/links were correct
-Passing images as props (used a variable)
-Using CSS to make the page look good/organized
-Adding links to the buttons
-Putting the project on GitHub (had some weird issues)
-Making the cards responsive on mobile (unable to do so)
+Finding images to use, 
+Managing the files/folders, 
+Making sure imports/links were correct, 
+Passing images as props (used a variable), 
+Using CSS to make the page look good/organized, 
+Adding links to the buttons, 
+Putting the project on GitHub (had some weird issues), 
+Making the cards responsive on mobile (unable to do so), 
 
 
 ## License
