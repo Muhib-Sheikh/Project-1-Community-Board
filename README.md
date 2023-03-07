@@ -52,7 +52,7 @@ Making the cards responsive on mobile (unable to do so),
 
 ## License
 
-    Copyright [2023C] [Muhib Sheikh]
+    Copyright 2023 Muhib Sheikh
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
